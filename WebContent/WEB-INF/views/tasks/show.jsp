@@ -13,5 +13,8 @@
 
         <p><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></p>
 
+        <!-- ...edit 編集画面の作成... -->
+        <p><a href="${pageContext.request.contextPath}/edit?id=${task.id}">このタスクを編集する</a></p>
+
     </c:param>
 </c:import>
